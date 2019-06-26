@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+        <script
+          src="https://code.jquery.com/jquery-3.4.1.js"
+          integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+          crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="tipcalculator.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="background-image">
+
+    </div>
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <div class="container  p-5 mt-5">
+        <h1 class="pb-5">Tip calculator</h1>
+          <div class="d-flex  flex-wrap">
+            <div class="col-6">
+              <div class="p-2">Tip Percent: %</div>
+              <div class="p-2">Bill Amount: $</div>
+              <div class="p-2">Divide By:</div>
+
+            </div>
+            <div class="col-6 inputs">
+              <div class="p2">
+                <input id="tip-percent" class="mb-2" type="number" name="" value="">
+              </div>
+              <div class="p2">
+                <input id="bill-amount" class="mb-2"  type="number" name="" value="">
+              </div>
+              <div class="p2">
+                  <input id="number-people" class="mb-2" type="number" name="" value="">
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-info btn-sm mt-5" onclick="addValue()">Calculate</button>          <button class="btn btn-info btn-sm btn-right mt-5 clear-button" onclick="removeAll()">Clear</button>
+          <p class="mt-5 py-3 answer text-center"> </p>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="tipcalculator.js">
+
+  </script>
+  </body>
+</html>

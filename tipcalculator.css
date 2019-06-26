@@ -1,0 +1,33 @@
+.container{
+  background-color: white;
+  border-radius: 25px;
+}
+h1{
+  letter-spacing: 2px;
+
+}
+
+.btn-right{
+  float: right;
+}
+
+.answer{
+  background-color: gainsboro;
+  border-radius: 13px;
+  height: 10%;
+
+  width:20%;
+}
+.background-image{
+  z-index: -1;
+
+
+  background-image: url("https://images.unsplash.com/photo-1433323712276-65a2330af76e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+  position: absolute;
+  background: cover;
+  width: 100%;
+  height: 100%;
+}
+body{
+  background-color: black;
+}
